@@ -1,0 +1,42 @@
+{
+  "name": "llama-index",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/uuid": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@llamaindex/chroma": "0.0.36",
+    "@llamaindex/core": "0.6.22",
+    "@llamaindex/llama-cloud": "^2.15.0",
+    "@llamaindex/ollama": "0.1.23",
+    "@llamaindex/openai": "0.4.22",
+    "@llamaindex/qdrant": "0.1.32",
+    "@llamaindex/readers": "3.1.21",
+    "@qdrant/js-client-rest": "^1.19.0",
+    "cohere-ai": "^7.21.0",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security",
+    "llamaindex": "0.12.1",
+    "openai": "^7.8.0",
+    "together-ai": "^0.49.0",
+    "undici": "^8.10.0",
+    "uuid": "^14.0.2",
+    "weaviate-client": "^3.14.0",
+    "weaviate-ts-embedded": "^1.2.0"
+  }
+}

@@ -1,0 +1,36 @@
+// {
+//   "passage_position": 1,
+//   "complexity": "easy",
+//   "questions": [
+//     {
+//       "question_type": "TRUE_FALSE_NOT_GIVEN",
+//       "questions_amount": 5
+//     },
+//     {
+//       "question_type": "SINGLE_CHOICE",
+//       "questions_amount": 4
+//     },
+//     {
+//       "question_type": "SHORT_ANSWER",
+//       "questions_amount": 4
+//     }
+//   ]
+// }
+{
+  "passage_position": 3,
+  "complexity": "hard",
+  "questions": [
+    {
+      "question_type": "TRUE_FALSE_NOT_GIVEN",
+      "questions_amount": 4
+    },
+    {
+      "question_type": "PARAGRAPH_MATCHING",
+      "questions_amount": 5
+    },
+    {
+      "question_type": "MULTIPLE_CHOICE",
+      "questions_amount": 5
+    }
+  ]
+}
